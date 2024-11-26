@@ -30,7 +30,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 
 DEBUG = True
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1','.vercel.app']
 
 
 
@@ -135,7 +135,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 # Directory to collect all static files for production
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT = BASE_DIR / "static"
  # STATICFILES_DIRS = [
  #   os.path.join(BASE_DIR, 'static')
  # ] 
